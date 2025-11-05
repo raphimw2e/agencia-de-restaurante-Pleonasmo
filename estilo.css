@@ -1,0 +1,174 @@
+/* Reset e configurações gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Corpo da página */
+body {
+    background-color: white;
+    font-size: 0;
+}
+
+/* Estilos para o cabeçalho e navegação */
+header {
+    background-color: #780000;
+    color: white;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+header nav ul li {
+    width: auto;
+    height: auto;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#reservabtn {
+    background-color: white;
+    border: none;
+}
+
+
+
+/* Início */
+.inicio {
+    /* define o container como um elemento em linha que se comporta como bloco (permite elementos que outros elementos fiquem ao lado (como elementos inline)) */
+    display: inline-block;
+    /* Estabelece um contexto de posicionamento para elementos filhos. Elementos filhos com position: absolute serão posicionados em relação a este container*/
+    position: relative;
+}
+
+.inicio figcaption {
+    color: white;
+    font-size: 50px;
+    left: 40px;
+    position: absolute;
+    text-align: left;
+    text-shadow: 20px black;
+    top: 25px;
+    
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Pratos e cardápio */
+
+.pratos {
+    background-color: #F8D794;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+
+.card {
+    border: 1px solid black;
+    font-size: 16px;
+    margin: 50px 10px 50px 10px;
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+    height: auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 600px;
+}
+
+.cards h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#cardapio {
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Sobre Nós */
+
+.sobre {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.sobre figcaption {
+    color: white;
+    font-size: 30px;
+    right: 40px;
+    position: absolute;
+    text-align: right;
+    text-shadow: 20px black;
+    top: 25px;
+    width: 500px;
+    
+}
+
+/* Frase do dia */
+.frasedia {
+    background-color: #780000;
+    color: white;
+    margin-top: 0;
+    padding: 0;
+    width: auto;
+    height: 550px;
+}
+
+.frasedia .frase {
+    margin-left: 200px;
+    margin-right: 525px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.frasedia .frase hr {
+    margin: 35px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(148, 29, 29);
+    font-size: 16px;
+    color:aliceblue;
+}
+
+footer .cards-footer {
+    display: flex;
+}
+
+footer .cards-footer .card-footer {
+    margin: 15px;
+}
+
